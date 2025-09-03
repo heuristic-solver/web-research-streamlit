@@ -13,3 +13,28 @@ This project builds a web research assistant that answers questions by searching
     Web Scraping: BeautifulSoup for content extraction
 
     Language: Python 3.8+
+
+# How to Run
+
+    Install dependencies:
+    bash
+
+    pip install streamlit requests beautifulsoup4 google-generativeai
+
+Get API keys:
+
+    Sign up for SERP API at serpapi.com
+
+    Get a Gemini API key from Google AI Studio
+
+Set up secrets:
+Create .streamlit/secrets.toml with:
+toml
+
+SERP_API_KEY = "your-actual-key-here"
+GEMINI_API_KEY = "your-actual-key-here"
+
+Run the app:
+bash
+
+streamlit run web_research_agent.py
