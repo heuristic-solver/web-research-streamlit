@@ -23,9 +23,9 @@ This project builds a web research assistant that answers questions by searching
 
 Get API keys:
 
-    Sign up for SERP API at serpapi.com
+Sign up for SERP API at serpapi.com
 
-    Get a Gemini API key from Google AI Studio
+Get a Gemini API key from Google AI Studio
 
 Set up secrets:
 Create .streamlit/secrets.toml with:
