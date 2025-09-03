@@ -56,10 +56,10 @@ Run the app:
 
 1. Web Search: SERP API finds relevant pages using Google's search engine
 
-    2. Content Chunking: Extracts main content and limits to 5000 characters per page
+2. Content Chunking: Extracts main content and limits to 5000 characters per page
 
-    3. Quality Scoring: Each source gets a score based on domain reputation and length of the content. 
+3. Quality Scoring: Each source gets a score based on domain reputation and length of the content. 
 
-    4. Deduplication: Removes duplicate sources from the same domain
+4. Deduplication: Removes duplicate sources from the same domain
 
-    5. Top-K Selection: Picks the 3 highest-quality sources for answer generation
+5. Top-K Selection: Picks the 3 highest-quality sources for answer generation
