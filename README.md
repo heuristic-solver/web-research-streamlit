@@ -84,11 +84,8 @@ Answer:
 # Future Improvements
 
 
-1. Add caching to reduce API calls for repeated queries
-2. Implement more sophisticated quality scoring using ML
 
-3. Add support for multiple search engines
 
-4. Implement proper chunking and vector storage for better context management
+1. Implement proper chunking and vector storage for better context management
 
-5. Add user feedback to improve source quality assessment over time
+2. Add user feedback to improve source quality assessment over time
