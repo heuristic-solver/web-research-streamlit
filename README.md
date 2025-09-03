@@ -19,6 +19,8 @@ This project builds a web research assistant that answers questions by searching
 Install dependencies:
     
 
+    pip install -r requirements.txt 
+    or 
     pip install streamlit requests beautifulsoup4 google-generativeai
 
 Get API keys:
