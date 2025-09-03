@@ -24,17 +24,17 @@ This project builds a web research assistant that answers questions by searching
 Get API keys:
 
 Sign up for SERP API at serpapi.com
-
 Get a Gemini API key from Google AI Studio
 
 Set up secrets:
 Create .streamlit/secrets.toml with:
-toml
 
-SERP_API_KEY = "your-actual-key-here"
-GEMINI_API_KEY = "your-actual-key-here"
+    SERP_API_KEY="Your api key here"
+    GEMINI_API_KEY="Your api key here"
+    bash
+
 
 Run the app:
-bash
+    
 
-streamlit run web_research_agent.py
+    streamlit run web_research_agent.py
