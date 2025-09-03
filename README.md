@@ -63,3 +63,32 @@ Run the app:
 4. Deduplication: Removes duplicate sources from the same domain
 
 5. Top-K Selection: Picks the 3 highest-quality sources for answer generation
+
+
+# Prompt
+
+The main prompt to Gemini follows this structure: 
+
+You are a research assistant. Based on the following sources, provide a concise answer to the query.
+If the information is not available in the sources, say "I don't know".
+Always cite your sources using numbers like [1], [2], etc.
+
+Query: {user_question}
+
+Sources:
+
+
+Answer:
+
+
+# Future Improvements
+
+
+1. Add caching to reduce API calls for repeated queries
+2. Implement more sophisticated quality scoring using ML
+
+3. Add support for multiple search engines
+
+4. Implement proper chunking and vector storage for better context management
+
+5. Add user feedback to improve source quality assessment over time
