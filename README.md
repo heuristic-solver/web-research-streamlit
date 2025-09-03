@@ -17,7 +17,7 @@ This project builds a web research assistant that answers questions by searching
 # How to Run
 
     Install dependencies:
-    bash
+    
 
     pip install streamlit requests beautifulsoup4 google-generativeai
 
@@ -31,8 +31,7 @@ Create .streamlit/secrets.toml with:
 
     SERP_API_KEY="Your api key here"
     GEMINI_API_KEY="Your api key here"
-    bash
-
+    
 
 Run the app:
     
